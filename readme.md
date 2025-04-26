@@ -4,7 +4,7 @@ Because Nix is all you need.
 
 ## Overview
 
-`Nix-Python` is a setup that allows you to manage Python environments and dependencies using Nix. It ensures that you have a consistent development environment with a specific Python version.
+`Nix-Python` is a setup that allows you to manage Python environments and dependencies using Nix. It ensures that you have a consistent development environment with a specific Python version. It handles both FHS (Filesystem Hierarchy Standard) and non-FHS compliant systems, providing flexibility across different environments.
 
 ## Usage
 
@@ -26,4 +26,3 @@ Run the following command to create a Docker image:
 ```bash
 nix build
 ```
-
